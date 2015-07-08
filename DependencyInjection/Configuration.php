@@ -27,7 +27,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('sg_datatables');
+        $rootNode = $treeBuilder->root('wg_universaldatatable');
 
         $rootNode
             ->children()

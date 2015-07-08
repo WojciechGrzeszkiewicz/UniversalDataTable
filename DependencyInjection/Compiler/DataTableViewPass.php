@@ -30,7 +30,7 @@ class DataTableViewPass implements CompilerPassInterface
     public function process(ContainerBuilder $container)
     {
         $taggedServices = $container->findTaggedServiceIds(
-            'sg.datatable.view'
+            'wg.universaldatatable.view'
         );
 
         foreach ($taggedServices as $id => $tagAttributes) {
@@ -41,7 +41,7 @@ class DataTableViewPass implements CompilerPassInterface
             $def->addArgument(new Reference('translator.default'));
             $def->addArgument(new Reference('router'));
             $def->addArgument(new Reference('doctrine.orm.entity_manager'));
-            $def->addArgument('%sg_datatables.default.layout.options%');
+            $def->addArgument('%wg_universaldatatable.default.layout.options%');
         }
     }
 }

@@ -1,18 +1,18 @@
 services:
-    sg_datatables.serializer.method:
+    wg_universaldatatable.serializer.method:
         class: Symfony\Component\Serializer\Normalizer\GetSetMethodNormalizer
-    sg_datatables.serializer.encoder.json:
+    wg_universaldatatable.serializer.encoder.json:
         class: Symfony\Component\Serializer\Encoder\JsonEncoder
-    sg_datatables.serializer:
+    wg_universaldatatable.serializer:
         class: Symfony\Component\Serializer\Serializer
         arguments:
-            - [@sg_datatables.serializer.method]
-            - [@sg_datatables.serializer.encoder.json]
-    sg_datatables.twig.extension:
+            - [@wg_universaldatatable.serializer.method]
+            - [@wg_universaldatatable.serializer.encoder.json]
+    wg_universaldatatable.twig.extension:
         class: Wg\UniversalDataTableBundle\Twig\DataTableTwigExtension
         arguments: [@translator]
         tags:
             - { name: twig.extension }
-    sg_datatables.query:
+    wg_universaldatatable.query:
         class: Wg\UniversalDataTableBundle\DataTable\Data\DataTableDataManager
-        arguments: [@request_stack, @sg_datatables.serializer]
+        arguments: [@request_stack, @wg_universaldatatable.serializer]
