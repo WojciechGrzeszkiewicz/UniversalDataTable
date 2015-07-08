@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Wg\UniversalDataTable\Twig;
+namespace Wg\UniversalDataTableBundle\Twig;
 
-use Wg\UniversalDataTable\DataTable\View\AbstractDataTableView;
-use Wg\UniversalDataTable\DataTable\Column\AbstractColumn;
+use Wg\UniversalDataTableBundle\DataTable\View\AbstractDataTableView;
+use Wg\UniversalDataTableBundle\DataTable\Column\AbstractColumn;
 
 use Twig_Environment;
 use Twig_Extension;
@@ -24,7 +24,7 @@ use Symfony\Component\Translation\TranslatorInterface;
 /**
  * Class DataTableTwigExtension
  *
- * @package Wg\UniversalDataTable\Twig
+ * @package Wg\UniversalDataTableBundle\Twig
  */
 class DataTableTwigExtension extends Twig_Extension
 {

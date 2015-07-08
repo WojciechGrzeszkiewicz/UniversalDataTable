@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Wg\UniversalDataTable\Command;
+namespace Wg\UniversalDataTableBundle\Command;
 
 /**
  * Class Fields
  *
- * @package Wg\UniversalDataTable\Command
+ * @package Wg\UniversalDataTableBundle\Command
  */
 class Fields
 {

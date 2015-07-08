@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Wg\UniversalDataTable\DependencyInjection;
+namespace Wg\UniversalDataTableBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -17,7 +17,7 @@ use Symfony\Component\Config\Definition\ConfigurationInterface;
 /**
  * Class Configuration
  *
- * @package Wg\UniversalDataTable\DependencyInjection
+ * @package Wg\UniversalDataTableBundle\DependencyInjection
  */
 class Configuration implements ConfigurationInterface
 {

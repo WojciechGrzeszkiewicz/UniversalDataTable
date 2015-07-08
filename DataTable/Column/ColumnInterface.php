@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Wg\UniversalDataTable\DataTable\Column;
+namespace Wg\UniversalDataTableBundle\DataTable\Column;
 
 /**
  * Interface ColumnInterface
  *
- * @package Wg\UniversalDataTable\DataTable\Column
+ * @package Wg\UniversalDataTableBundle\DataTable\Column
  */
 interface ColumnInterface
 {

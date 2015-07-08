@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Wg\UniversalDataTable\Generator;
+namespace Wg\UniversalDataTableBundle\Generator;
 
 use Sensio\Bundle\GeneratorBundle\Generator\Generator;
 use Symfony\Component\HttpKernel\Bundle\BundleInterface;
@@ -18,7 +18,7 @@ use RuntimeException;
 /**
  * Class DataTableGenerator
  *
- * @package Wg\UniversalDataTable\Generator
+ * @package Wg\UniversalDataTableBundle\Generator
  */
 class DataTableGenerator extends Generator
 {

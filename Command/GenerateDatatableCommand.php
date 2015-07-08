@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Wg\UniversalDataTable\Command;
+namespace Wg\UniversalDataTableBundle\Command;
 
-use Wg\UniversalDataTable\Generator\DataTableGenerator;
+use Wg\UniversalDataTableBundle\Generator\DataTableGenerator;
 
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
@@ -26,7 +26,7 @@ use RuntimeException;
 /**
  * Class GenerateDataTableCommand
  *
- * @package Wg\UniversalDataTable\Command
+ * @package Wg\UniversalDataTableBundle\Command
  */
 class GenerateDataTableCommand extends GenerateDoctrineCommand
 {
@@ -69,7 +69,7 @@ class GenerateDataTableCommand extends GenerateDoctrineCommand
 
         $bundle = $this->getContainer()->get('kernel')->getBundle($bundle);
 
-        /** @var \Wg\UniversalDataTable\Generator\DataTableGenerator $generator */
+        /** @var \Wg\UniversalDataTableBundle\Generator\DataTableGenerator $generator */
         $generator = $this->getGenerator($bundle);
         $generator->generate($bundle, $entity, $fields, $clientSide, $ajaxUrl);
 

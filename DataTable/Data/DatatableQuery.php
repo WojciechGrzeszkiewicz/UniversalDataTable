@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Wg\UniversalDataTable\DataTable\Data;
+namespace Wg\UniversalDataTableBundle\DataTable\Data;
 
-use Wg\UniversalDataTable\DataTable\View\DataTableViewInterface;
-use Wg\UniversalDataTable\DataTable\Column\AbstractColumn;
+use Wg\UniversalDataTableBundle\DataTable\View\DataTableViewInterface;
+use Wg\UniversalDataTableBundle\DataTable\Column\AbstractColumn;
 
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Serializer\Serializer;
@@ -28,7 +28,7 @@ use Exception;
 /**
  * Class DataTableQuery
  *
- * @package Wg\UniversalDataTable\DataTable\Data
+ * @package Wg\UniversalDataTableBundle\DataTable\Data
  */
 class DataTableQuery
 {

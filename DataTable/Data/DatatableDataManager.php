@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Wg\UniversalDataTable\DataTable\Data;
+namespace Wg\UniversalDataTableBundle\DataTable\Data;
 
-use Wg\UniversalDataTable\DataTable\View\DataTableViewInterface;
+use Wg\UniversalDataTableBundle\DataTable\View\DataTableViewInterface;
 
 use Symfony\Component\HttpFoundation\RequestStack;
 use Symfony\Component\HttpFoundation\Request;
@@ -20,7 +20,7 @@ use Symfony\Component\Serializer\Serializer;
 /**
  * Class DataTableDataManager
  *
- * @package Wg\UniversalDataTable\DataTable\Data
+ * @package Wg\UniversalDataTableBundle\DataTable\Data
  */
 class DataTableDataManager
 {

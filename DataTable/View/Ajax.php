@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Wg\UniversalDataTable\DataTable\View;
+namespace Wg\UniversalDataTableBundle\DataTable\View;
 
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symfony\Component\DependencyInjection\Container;
@@ -18,7 +18,7 @@ use Exception;
 /**
  * Class Ajax
  *
- * @package Wg\UniversalDataTable\DataTable\View
+ * @package Wg\UniversalDataTableBundle\DataTable\View
  */
 class Ajax
 {

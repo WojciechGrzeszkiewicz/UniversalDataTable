@@ -75,7 +75,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new Wg\UniversalDataTable\WgUniversalDataTableBundle(),
+        new Wg\UniversalDataTableBundle\WgUniversalDataTableBundle(),
     );
 }
 ```

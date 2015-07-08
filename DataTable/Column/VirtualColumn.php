@@ -12,14 +12,14 @@
  * @author stwe
  */
 
-namespace Wg\UniversalDataTable\DataTable\Column;
+namespace Wg\UniversalDataTableBundle\DataTable\Column;
 
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
 /**
  * Class VirtualColumn
  *
- * @package Wg\UniversalDataTable\DataTable\Column
+ * @package Wg\UniversalDataTableBundle\DataTable\Column
  */
 class VirtualColumn extends Column
 {

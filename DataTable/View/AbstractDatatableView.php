@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Wg\UniversalDataTable\DataTable\View;
+namespace Wg\UniversalDataTableBundle\DataTable\View;
 
-use Wg\UniversalDataTable\DataTable\Column\ColumnBuilder;
+use Wg\UniversalDataTableBundle\DataTable\Column\ColumnBuilder;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\EntityManagerInterface;
@@ -27,7 +27,7 @@ use Exception;
 /**
  * Class AbstractDataTableView
  *
- * @package Wg\UniversalDataTable\DataTable\View
+ * @package Wg\UniversalDataTableBundle\DataTable\View
  */
 abstract class AbstractDataTableView implements DataTableViewInterface
 {
@@ -386,7 +386,7 @@ abstract class AbstractDataTableView implements DataTableViewInterface
     public function getColumnIdByColumnName($name)
     {
         if (count($this->columnNames) == 0) {
-            /** @var \Wg\UniversalDataTable\DataTable\Column\AbstractColumn $column */
+            /** @var \Wg\UniversalDataTableBundle\DataTable\Column\AbstractColumn $column */
             foreach ($this->getColumnBuilder()->getColumns() as $key => $column) {
                 $this->columnNames[$column->getData()] = $key;
             }

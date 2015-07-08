@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Wg\UniversalDataTable\DataTable\View;
+namespace Wg\UniversalDataTableBundle\DataTable\View;
 
-use Wg\UniversalDataTable\DataTable\Column\ColumnBuilder;
+use Wg\UniversalDataTableBundle\DataTable\Column\ColumnBuilder;
 
 use Doctrine\ORM\QueryBuilder;
 use Doctrine\ORM\EntityManagerInterface;
@@ -21,7 +21,7 @@ use Twig_Error;
 /**
  * Interface DataTableViewInterface
  *
- * @package Wg\UniversalDataTable\DataTable\View
+ * @package Wg\UniversalDataTableBundle\DataTable\View
  */
 interface DataTableViewInterface
 {

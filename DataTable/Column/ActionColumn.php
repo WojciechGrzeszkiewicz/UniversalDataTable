@@ -12,7 +12,7 @@
  * @author stwe
  */
 
-namespace Wg\UniversalDataTable\DataTable\Column;
+namespace Wg\UniversalDataTableBundle\DataTable\Column;
 
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symfony\Component\PropertyAccess\Exception\InvalidArgumentException;
@@ -20,7 +20,7 @@ use Symfony\Component\PropertyAccess\Exception\InvalidArgumentException;
 /**
  * Class ActionColumn
  *
- * @package Wg\UniversalDataTable\DataTable\Column
+ * @package Wg\UniversalDataTableBundle\DataTable\Column
  */
 class ActionColumn extends AbstractColumn
 {

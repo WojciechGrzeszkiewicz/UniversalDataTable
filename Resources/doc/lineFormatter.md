@@ -14,7 +14,7 @@ securize request by removing id and transform it in a slug.
 
 namespace Sg\BlogBundle\DataTables;
 
-use Wg\UniversalDataTable\DataTable\View\AbstractDataTableView;
+use Wg\UniversalDataTableBundle\DataTable\View\AbstractDataTableView;
 
 /**
  * Class UserDataTable

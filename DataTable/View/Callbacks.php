@@ -1,6 +1,6 @@
 <?php
 
-namespace Wg\UniversalDataTable\DataTable\View;
+namespace Wg\UniversalDataTableBundle\DataTable\View;
 
 /**
  * This file is part of the WgUniversalDataTableBundle package.
@@ -18,7 +18,7 @@ use Exception;
 /**
  * Class Callbacks
  *
- * @package Wg\UniversalDataTable\DataTable\View
+ * @package Wg\UniversalDataTableBundle\DataTable\View
  */
 class Callbacks
 {

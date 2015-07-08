@@ -9,14 +9,14 @@
  * file that was distributed with this source code.
  */
 
-namespace Wg\UniversalDataTable\DataTable\Column;
+namespace Wg\UniversalDataTableBundle\DataTable\Column;
 
 use Symfony\Component\PropertyAccess\Exception\InvalidArgumentException;
 
 /**
  * Class ColumnFactory
  *
- * @package Wg\UniversalDataTable\DataTable\Column
+ * @package Wg\UniversalDataTableBundle\DataTable\Column
  */
 class ColumnFactory implements ColumnFactoryInterface
 {

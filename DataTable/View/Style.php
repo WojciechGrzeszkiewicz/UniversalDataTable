@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Wg\UniversalDataTable\DataTable\View;
+namespace Wg\UniversalDataTableBundle\DataTable\View;
 
 /**
  * Class Style
  *
- * @package Wg\UniversalDataTable\DataTable\View
+ * @package Wg\UniversalDataTableBundle\DataTable\View
  */
 class Style
 {

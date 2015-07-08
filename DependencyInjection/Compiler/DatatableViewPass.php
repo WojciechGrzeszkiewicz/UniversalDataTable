@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Wg\UniversalDataTable\DependencyInjection\Compiler;
+namespace Wg\UniversalDataTableBundle\DependencyInjection\Compiler;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
@@ -18,7 +18,7 @@ use Symfony\Component\DependencyInjection\Reference;
 /**
  * Class DataTableViewPass
  *
- * @package Wg\UniversalDataTable\DependencyInjection\Compiler
+ * @package Wg\UniversalDataTableBundle\DependencyInjection\Compiler
  */
 class DataTableViewPass implements CompilerPassInterface
 {

@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Wg\UniversalDataTable\DependencyInjection;
+namespace Wg\UniversalDataTableBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
@@ -19,7 +19,7 @@ use Symfony\Component\DependencyInjection\Loader;
 /**
  * Class SgDataTablesExtension
  *
- * @package Wg\UniversalDataTable\DependencyInjection
+ * @package Wg\UniversalDataTableBundle\DependencyInjection
  */
 class SgDataTablesExtension extends Extension
 {

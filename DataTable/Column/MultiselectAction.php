@@ -9,14 +9,14 @@
  * file that was distributed with this source code.
  */
 
-namespace Wg\UniversalDataTable\DataTable\Column;
+namespace Wg\UniversalDataTableBundle\DataTable\Column;
 
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
 /**
  * Class MultiselectAction
  *
- * @package Wg\UniversalDataTable\DataTable\Column
+ * @package Wg\UniversalDataTableBundle\DataTable\Column
  */
 class MultiselectAction extends Action
 {

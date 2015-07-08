@@ -21,8 +21,8 @@ A description of all available options of the generator is located [here](./gene
 
 namespace AppBundle\DataTables;
 
-use Wg\UniversalDataTable\DataTable\View\AbstractDataTableView;
-use Wg\UniversalDataTable\DataTable\View\Style;
+use Wg\UniversalDataTableBundle\DataTable\View\AbstractDataTableView;
+use Wg\UniversalDataTableBundle\DataTable\View\Style;
 
 /**
  * Class PostDataTable
@@ -470,8 +470,8 @@ The differences to the above description:
 
 namespace Sg\BlogBundle\DataTables;
 
-use Wg\UniversalDataTable\DataTable\View\AbstractDataTableView;
-use Wg\UniversalDataTable\Column\ActionColumn;
+use Wg\UniversalDataTableBundle\DataTable\View\AbstractDataTableView;
+use Wg\UniversalDataTableBundle\Column\ActionColumn;
 
 /**
  * Class PostDataTable
