@@ -717,7 +717,10 @@ class DataTableQuery
      */
     private function getTableName(ClassMetadata $metadata)
     {
-        return strtolower($metadata->getTableName());
+        $tableName = preg_replace('/\./', '_', strtolower($metadata->getTableName()));
+        $tableName = preg_replace('/_/', '__', $tableName);
+
+        return $tableName;
     }
 
     /**
